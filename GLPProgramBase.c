@@ -1,4 +1,4 @@
-#include "glpProgramBase.h"
+#include "GLPProgramBase.h"
 
 #include <stdlib.h>
 
