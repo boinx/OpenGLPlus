@@ -83,7 +83,8 @@
 {
 	if(freeWhenDone)
 	{
-		glpTextureDelete(texture), texture = 0;
+		glpTextureDelete(texture);
+        texture = 0;
 	}
 }
 

@@ -171,7 +171,8 @@
 	
 	NSString *string = [[NSString alloc] initWithCString:infoLog encoding:NSUTF8StringEncoding];
 	
-	free(infoLog), infoLog = 0;
+	free(infoLog);
+    infoLog = 0;
 	
 	return string;
 }

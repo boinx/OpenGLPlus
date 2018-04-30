@@ -92,8 +92,10 @@
 	
 	[self setFormat:format width:(GLsizei)width height:(GLsizei)height pixels:data target:target_];
 	
-	CGContextRelease(context), context = NULL;
-	free(data), data = NULL;
+	CGContextRelease(context);
+    context = NULL;
+	free(data);
+    data = NULL;
 	
 	return YES;
 }
