@@ -11,7 +11,6 @@
 		503221BD186F8C1000D95640 /* GLPProgram+ObjectLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 503221BC186F8C1000D95640 /* GLPProgram+ObjectLabel.m */; };
 		503221C0186F8E2F00D95640 /* GLPBuffer+ObjectLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 503221BF186F8E2F00D95640 /* GLPBuffer+ObjectLabel.m */; };
 		5036012E1869BB1700125C04 /* GLPProgram+XML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036012D1869BB1700125C04 /* GLPProgram+XML.m */; };
-		50591E9D185C913E007F6117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50591E9C185C913E007F6117 /* Foundation.framework */; };
 		50591EA2185C913E007F6117 /* OpenGLPlus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50591EA1185C913E007F6117 /* OpenGLPlus.h */; };
 		50591ECF185C919B007F6117 /* GLPBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50591ECE185C919B007F6117 /* GLPBuffer.m */; };
 		50591EDA185C96BC007F6117 /* GLPVertexArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 50591ED9185C96BC007F6117 /* GLPVertexArray.m */; };
@@ -156,7 +155,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50591E9D185C913E007F6117 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
